@@ -5,7 +5,7 @@ public class Task08 {
     public static boolean solution() {
         // TODO измените тип и значение переменной x, чтобы возвращалось значение true
 
-        float x = 1f / 0;
+        int x = 100;
         return x == x + 1;
     }
 
