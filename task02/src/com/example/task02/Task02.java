@@ -4,21 +4,21 @@ public class Task02 {
 
     public static String solution(String input) {
         long in = Long.parseLong(input);
-        if (in < 0){
+        if (in < 0) {
             in *= -1;
             in--;
         }
 
-        if(in <= 127){
+        if (in <= 127) {
             return "byte";
         }
-        if(in <= 32767){
+        if (in <= 32767) {
             return "short";
         }
-        if(in <= 2147483647){
+        if (in <= 2147483647) {
             return "int";
         }
-        if(in > 2147483647){
+        if (in > 2147483647) {
             return "long";
         }
 
