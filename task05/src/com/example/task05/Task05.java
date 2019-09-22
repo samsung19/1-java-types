@@ -4,9 +4,14 @@ public class Task05 {
 
     public static String solution(int x) {
 
-        // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
+        while (x > 0) {
+            int x1 = x % 10;
+            x /= 10;
+            if (x1 % 2 != 0)
+                return "FALSE";
+        }
 
-        return "FALSE";
+        return "TRUE";
     }
 
     public static void main(String[] args) {
