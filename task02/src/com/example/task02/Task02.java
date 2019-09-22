@@ -2,7 +2,6 @@ package com.example.task02;
 
 
 public class Task02 {
-
     public static String solution(String input) {
         long n = Long.parseLong(input);
         if ((n <= 127) && (n>=-128)) {
